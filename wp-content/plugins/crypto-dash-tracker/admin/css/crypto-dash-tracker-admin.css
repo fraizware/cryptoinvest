@@ -1,0 +1,165 @@
+/* SETTINGS PAGE STYLES */
+.coinslist input.Crypto_Dash_Tracker_coinslist {
+    width: 100%;
+    padding: 10px;
+}
+
+.customstyles .Crypto_Dash_Tracker_customstyles {
+    width: 100%;
+    min-height: 350px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 12px;
+}
+
+textarea.Crypto_Dash_Tracker_dashwidgetcoininfo {
+    min-width: 220px;
+    min-height: 130px;
+}
+
+/* DASHBOARD TRACKER WIDGET STYLES */
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data {
+    margin: 10px 0;
+}
+
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data div {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+#cryptodashtracker_dashboard_widget .widget-header {
+    font-size: 16px;
+}
+
+#cryptodashtracker_dashboard_widget .widget-header,
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .data-header {
+    font-weight: bold;
+}
+
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .data-header {
+    background: rgba(0,0,0,0.08);
+    /* margin-bottom: 6px; */
+}
+
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .coin-row,
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .data-header,
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .grandTotal {
+    display: flex;
+}
+
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .data-header,
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .coin-row,
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .grandTotal {
+    padding: 6px;
+}
+
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .coin-row:nth-child(odd) {
+    background: rgba(0,0,0,0.03);
+}
+
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .coin-row > div,
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .data-header > div,
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .grandTotal > div {
+    width: 100%;
+}
+
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .data-header > div:first-child,
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .coin-row > div:first-child,
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .grandTotal > div:first-child {
+    width: 50%;
+}
+
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .data-header > div {
+    text-align: left;
+}
+
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .data-header > div.title.mkt-value,
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .data-header > div.title.total {
+    text-align: right;
+}
+
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .data-header > div.title.pct-change,
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .data-header > div.title.amt {
+    text-align: center;
+}
+
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .data-header > div,
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .coin-row > div,
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .grandTotal > div {
+    padding: 4px;
+}
+
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .coin-row > div.coin-symbol .coin-icon,
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .coin-row > div.coin-symbol .coin-abbr {
+    display: inline-block;
+}
+
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .coin-row > div.coin-symbol .coin-icon {
+    margin-right: 4px;
+}
+
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .coin-row > div.coin-symbol .coin-icon img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .coin-row > div.coin-symbol .coin-icon,
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .coin-row > div.coin-symbol .coin-icon img {
+    width: 16px;
+}
+
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .coin-row > div.coin-symbol .coin-icon,
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .coin-row > div.coin-symbol .coin-icon img,
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .coin-row > div.coin-symbol .coin-abbr {
+    line-height: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .coin-row > div.coin-symbol .coin-abbr {
+    font-weight: bold;
+}
+
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .coin-row > div.coin-pct-change,
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .coin-row > div.coin-amt {
+    text-align: center;
+}
+
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .coin-row > div.coin-price,
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .coin-row > div.coin-totalVal {
+    text-align: right;
+}
+
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .coin-row > div.coin-pct-change.pos {
+    color: #63b47c;
+}
+
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .coin-row > div.coin-pct-change.neg {
+    color: #ff0000;
+}
+
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .grandTotal {
+    background: rgba(0,0,0,0.08);
+    /* margin-top: 6px; */
+}
+
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .grandTotal > div {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .grandTotal > div.title {
+    text-align: center;
+}
+
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .grandTotal > div.number {
+    text-align: right;
+}
+
+#cryptodashtracker_dashboard_widget .cryptodashtracker-dashboard-widget-data .msg-error {
+    border-left: 4px solid #ff0000;
+    margin: 5px auto;
+    padding: 4px 12px;
+}
